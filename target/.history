@@ -1,0 +1,50 @@
+exit
+ls
+exit
+-compile
+compile
+-compile
+~compile
+compile
+help
+help run
+help new
+help app
+help run
+help new
+run
+set ThisBuild/ scalaVersion := "2.12.7"
+scalaVersion
+session save
+ls
+reolad
+reload
+test
+-testQuick
+~testQuick
+test
+~testQuick
+reload
+~testQuick
+reload
+~testQuick
+reload
+console
+reload
+run
+~run
+reload
+dist
+Docker/publishLocal
+++2.11.13!
+scalaVersion
+reload
+help dist
+inspect dist
+inspect tree dist
+sbt clean "testOnly HelloSpec"
+sbt clean "testOnly HelloSpec";
+reload
+sbt clean "testOnly HelloSpec";
+sbt clean "testOnly HelloSpec"
+exit

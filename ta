@@ -1,0 +1,6 @@
+def concat(a: List[String], b: List[String]) : List[String] = {
+  for(a1 <- a; b1 <- b) yield a1++b1}
+def power(a: List[String], pow: Int) : List[String] = pow match {
+  case 0 => List("")
+  case i => concat(a, power(a, i - 1))
+}
